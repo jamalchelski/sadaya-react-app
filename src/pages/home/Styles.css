@@ -1,0 +1,432 @@
+@media screen and (min-width:900px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+    }
+    
+    nav {
+        display:flex;
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content:space-between;
+        align-items: center;
+        border-bottom: #efeff04a solid;
+        
+    }
+    .logo-brand {
+        height: 3.8em;
+    }
+    
+    
+    .harga-btn {
+        background-color: #9b9ba2b1;
+        width: 6em;
+        height: 2em;
+        border-radius: 6px;
+        margin: auto 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(58, 58, 58);
+        font-family: 'Poppins' ;
+        
+      }
+    
+      .dropbtn {
+        text-decoration:none;
+      }
+      
+    
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+    
+      .dropdown-content {
+        display: none;
+        right: 17px;
+        position: absolute;
+        background-color: rgba(229, 234, 236, 0.596);
+        min-width: 95px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+    
+      .dropdown-content a {
+        color: black;
+        padding: 10px 10px;
+        text-decoration: none;
+        display: block;
+      }
+      
+    
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+    
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+    
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+
+       /* Content Awal  */
+
+       .conten {
+        display: flex;
+        padding-top: calc(5.5%);
+    }
+
+    .kiri {
+        display: flex;
+        flex: 1;
+        padding-left: 100px;
+
+        flex-direction: column;
+    }
+
+    .brand-name {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5.5em;
+        color: rgb(31, 31, 31);
+    }
+    .brand-name1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5em;
+        color: rgb(31, 31, 31);
+        margin-bottom: -28px;
+        margin-left: calc(38%);
+    }
+
+    .brand-name2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        margin-top: 1px;
+        letter-spacing: 1.3px;
+        color: rgb(31, 31, 31);
+    }
+
+    .brand-name-wrapper {
+        display: flex;
+        flex-direction: column;
+        line-height: 0.5em;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .con-wrapper {
+        width: calc(63%);
+        margin-top: -20px;
+    }
+
+    .kiri-wrapper {
+        width: calc(70%);
+        padding-left: 35px;
+    }
+
+
+    .brand-con {
+        color: rgb(124, 124, 124);
+        line-height: normal;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+    }
+
+    .btn-btn {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .btn-daftar {
+        background-color: #1e90ff;
+        width: 5.5em;
+        height: 2.3em;
+        border-radius: 9px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        font-family: 'Poppins' ;
+    }
+
+    
+    .kanan {
+        display: flex;
+        flex: 1.4;
+        margin-top: -70px;
+    }
+
+    .hero-hp {
+        width: 70%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .linkdaftar {
+        display: flex;
+        flex-direction: row;
+        text-decoration:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .linkdaftar2 {
+        text-decoration:none;
+        margin-left: 50px;
+    }
+
+    .img-ply {
+        height: 2.2em;
+      }
+
+
+
+      /* Content Akhir  */
+
+
+    /* Sosmed awal */
+    .sosmed {
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .btn-sosmed {
+        height: 25px;
+        padding: 5px;
+    }
+
+    .contact {
+        font-family: 'Poppins' ;
+        font-style: bold;
+        font-size: 10px;
+    }
+
+    /* Sosmed akhir */
+}
+  
+@media only screen and (max-width:900px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .hero-hp {
+        width: 70%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+
+    nav {
+        display:flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content:space-between;
+        align-items: center;
+        border-bottom: #efeff04a solid;
+        
+    }
+
+
+    .logo-brand {
+        height: 3.5em; 
+        padding: 10px; 
+      }
+
+      .harga-btn {
+        background-color: #a5b7da;
+        width: 5em;
+        height: 2em;
+        border-radius: 6px;
+        margin: auto 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(58, 58, 58);
+        font-family: 'Poppins' ;
+        
+      }
+
+    .dropbtn {
+        text-decoration:none;
+      }
+      
+    
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+    
+      .dropdown-content {
+        display: none;
+        right: 17px;
+        position: absolute;
+        background-color: rgba(229, 234, 236, 0.596);
+        min-width: 95px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+    
+      .dropdown-content a {
+        color: black;
+        padding: 10px 10px;
+        text-decoration: none;
+        display: block;
+      }
+      
+    
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+    
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+    
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+
+
+
+      /* Content Awal  */
+
+      .conten {
+        display: flex;
+        flex-direction: column;
+        padding-top: calc(10%);
+    }
+
+    .kiri {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .brand-name {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3em;
+        color: rgb(31, 31, 31);
+    }
+    .brand-name1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+        color: rgb(31, 31, 31);
+        margin-bottom: -15px;
+        margin-left: calc(30%);
+    }
+
+    .brand-name2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: rgb(31, 31, 31);
+    }
+
+    .brand-name-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 0.5em;
+        padding-left: 10px;
+    }
+
+
+    .brand-con {
+        margin: 10px;
+        text-align: center;
+        color: rgb(124, 124, 124);
+        line-height: normal;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8em;
+    }
+
+    .btn-btn {
+        display: flex;
+        justify-content:center;
+        padding-top: 10px;
+    }
+    .btn-daftar {
+        background-color: #1e90ff;
+        width: 5em;
+        height: 2em;
+        border-radius: 9px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        font-family: 'Poppins' ;
+    }
+
+    .linkdaftar {
+        display: flex;
+        flex-direction: row;
+        text-decoration:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .linkdaftar2 {
+        text-decoration:none;
+        margin-left: 50px;
+    }
+
+    .img-ply {
+        height: 2em;
+      }
+
+
+
+    .kanan {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+      /* Content Akhir  */
+
+
+    /* Sosmed awal */
+    .btn-sosmed {
+        height: 25px;
+        padding: 5px;
+    }
+    .sosmed {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .contact {
+        font-family: 'Poppins' ;
+        font-style: bold;
+        font-size: 10px;
+    }
+
+    /* Sosmed akhir */
+}
+
+
+
+
+
+

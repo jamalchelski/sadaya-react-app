@@ -1,4 +1,4 @@
-import "./Main.css";
+import "./Styles.css";
 import logo from "../../img/logo-sadaya.png";
 import ply from "../../img/imgply.png";
 import hp from "../../img/hp2.png";
@@ -10,20 +10,17 @@ function Main() {
     <div className="body">
       <div className="container">
         <nav>
-          <a className="linkdaftar" href="/">
-            <div className="brand">
-              <img className="logo-brand" src={logo} alt="Logo Sadaya" />
-            </div>
-          </a>
+          <div className="logo-sadaya">
+            <a className="linkdaftar" href="/">
+              <div className="brand">
+                <img className="logo-brand" src={logo} alt="Logo Sadaya" />
+              </div>
+            </a>
+          </div>
 
           <div class="dropdown">
             <div className="ply">
-              <a
-                className="linkdaftar"
-                href="http://sadaya.otoreport.com/harga.js.php?id=0647d8179511645cf66093efb588bfeaf37f8f8eb794660f3ed24f544ae217f1e854d023183be46445d7af66a143c561-4"
-              >
-                <div className="harga-btn">HARGA</div>
-              </a>
+              <div className="harga-btn">HARGA</div>
             </div>
             <div class="dropdown-content">
               <a href="http://sadaya.otoreport.com/harga.js.php?id=5415fe9244cc2b980f61d4eb4b7cb1190677e09a98b6850dc835324c016f7ae5f34a463eb2ffd0124bb3ce16e89cd242-12">
@@ -41,17 +38,20 @@ function Main() {
             </div>
           </div>
         </nav>
+
         <div className="conten">
           <div className="kiri">
-            <div className="kiri-wrapper">
-              <div className="brand-name-wrapper">
-                <h1 className="brand-name1">mobile</h1>
-              </div>
+            <div className="brand-name-wrapper">
+              <h1 className="brand-name1">mobile</h1>
               <h1 className="brand-name">Sadaya</h1>
               <h2 className="brand-name2">Lebih mudah,Lebih dekat</h2>
-              <h5 className="brand-con">
-                Aplikasi TopUp Pulsa Reguler dan Pembayaran Tagihan PPOB
-              </h5>
+              <div className="con-wrapper">
+                <h5 className="brand-con">
+                  Aplikasi TopUp Pulsa Reguler dan Pembayaran Tagihan PPOB
+                </h5>
+              </div>
+            </div>
+            <div className="kiri-wrapper">
               <div className="btn-btn">
                 <a
                   href="http://sadaya.otoreport.com/formagen.php?id=4884b0afa4597c5306c2766fcae31fd8c1dced1c023b62b6664a50d3088ed7cf9ef93fe9728268c383fca6f31e97741d-9"
@@ -69,14 +69,16 @@ function Main() {
             </div>
           </div>
           <div className="kanan">
-            <img src={hp} alt="Logo HP" />
+            <img className="hero-hp" src={hp} alt="Logo HP" />
           </div>
           <div className="sosmed">
-            <a className="linkdaftar" href="https://wa.me/085158619943">
+            <a className="linkdaftar" href="https://wa.me/+6281223733660">
               <img className="btn-sosmed" src={wa} alt="" />
+              <h5 className="contact">+62 85158619943</h5>
             </a>
-            <a className="linkdaftar" href="/">
+            <a className="linkdaftar" href="https://t.me/CS_SADAYA">
               <img className="btn-sosmed" src={tel} alt="" />
+              <h5 className="contact">@CS_SADAYA</h5>
             </a>
           </div>
         </div>
